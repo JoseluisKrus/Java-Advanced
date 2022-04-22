@@ -11,6 +11,7 @@ public class main {
             if (command.equals("back")){
                 if (history.isEmpty()) {
                     System.out.println("no previous URLs");
+                    System.out.println();
                     command = scanner.nextLine();
                     continue;
                 }
